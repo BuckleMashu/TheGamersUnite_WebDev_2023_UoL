@@ -5,8 +5,7 @@ The website serves as a digital scrapbook and blog, chronicling the experiences,
 
 Website overview: https://youtu.be/sp5mNXWO6Es
 
-![image](https://github.com/user-attachments/assets/aa509742-6abb-413d-889e-0219f6867490)
-
+![image](https://github.com/user-attachments/assets/b70a676f-fee7-4df5-bdeb-08b68a0e6711)
 
 - Key Features Implemented:
 
