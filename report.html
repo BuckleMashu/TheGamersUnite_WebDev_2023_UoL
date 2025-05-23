@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/report.css" />
+    <title>report.html</title>
+</head>
+<body>
+    <nav id="navbar">
+        <div id="group_logo">
+          <a href="index.html">
+            <img id="groupLogoImg" src="index_images/proper logo maybe.jpg" alt="group Logo Image" />
+          </a>
+        </div>
+    
+        <div id="nav-links">
+          <a href="recentHangouts.html" alt="this is a link that will lead you to the a page with all of the available articles">Articles</a>
+        </div>
+    
+        <a id="linkedin" href="https://www.linkedin.com/in/cuong-nguyen-14bb62179/"><img src="index_images/linkedin-square-white-icon-transparent.png" alt="The link to Cuong's linkedin account " width="40px" height="40px"/></a>
+        <a id="Report" href="report.html"><button>Report HTML</button></a>
+    </nav>
+    <div class="banner">
+        <div class = "bannerIMG"><img src="index_images/cuong_zoomed.gif"></div>
+        <h1 class="bannerTitle">Cuong's Report HTML</h1>
+        <p class="bannerDate">27th February 2023</p>
+    </div>
+    <div class="centerblack"></div>
+
+    <div class="wholeContent">
+        <p class="Opening">Hello! My name is Nguyen Ngoc Quoc Cuong, and a student at the University of London Computer Science (AI and Machine Learning)
+        </p>
+
+        <p class="Title" id="intro">Introduction</p>
+        <div class="Introduction">
+            <div class="IntroFirstRow">
+                <p>For the theme of my website, I decided to focus on a very close friend group that I have known for years. The website is meant to tell visitors stories about this group of friends’ life experiences. Therefore, to make this website capture the energy my group usually has and as if the readers were a part of the journey, I have to pay close attention to the website design choices. 
+                </p>
+                <div class="subtitle">
+                    <img src="css/articlesImages/2022/malaysiatrip/malaysia_trip_banner.jpg" alt="">
+                    <p>Figure 1: The Gamers Unite</p>
+                </div>
+            </div>
+            <p>Things like “how interactive do I want this page to be?” or “how aesthetically pleasing is the website?” are important, but I find the “vibe” of a website is equally important. I actually have gone through many more design choices because I was conflicted about whether I should make a parasocial relationship website, or make it as transparent as possible. After a while, I decided on making this website feel as if I’m talking to an acquaintance. Two of the design choices I implemented to achieve this “feel” are randomised background pictures, and odd choices of words to make jokes.
+            </p>
+            <ul>
+                <li>The randomised background images javascript was implemented to the main page( index.html ) and the articles page( recentHangouts.html ) to show a sneak peek of the history my friends and I have together. The background pictures include the different time periods in our lives, random things that caught our interest, and a picture referencing “The Caretaker - It’s just a burning memory”. The album logo, albeit it is an extreme way to represent the message, is to show my fear of forgetting these precious memories I made with my friends when we all grow up and have our own families and responsibilities.
+                </li>
+                <br>
+                <li>The odd choices of words, which is most prevalent in the article “Four Diners, Two Carbs” and some gifs’ / images’ descriptions, are meant to be like a window of how we have fun with one another. However, in this way of writing paragraphs for the website, it will look unprofessional. We gaslight each other, over-exaggerate things, and simply make references to our past mistakes or funny stories we experienced. Therefore, I wrote the website’s articles in a more toned-down and friendly way so that new acquaintances won’t have the wrong impression about us ,yet enough to still be able to know the 'vibe' that we are just a group of teenagers who want to have fun together (real). Hence, you can see it in the four atricles "Four Diners, Two Carbs", "1st Malaysia Trip", "Trampoline Frenzy", and "AFA".
+                </li>
+            </ul>
+        </div>
+
+        <p class="Title" id="inspi">Inspiration</p>
+        <div class="Inspiration">
+            <ul>
+                <li><a href="https://www.free-css.com/free-css-templates/page257/nectaria">Nectaria website template</a></li>
+                <p>The general layout of this template is my reference for my wireframes.<br>
+                    I select this template because simply, it is aesthetically pleasing  
+                </p>
+                <br>
+                <li><a href="https://ibighit.com/bts/eng/">BTS website</a></li>
+                <p>I was looking up popular group websites and I noticed that BTS uses a slideshow to display their albums.<br>
+                    I find this slideshow might be a nice addition to my home page. Thus, I implemented a slideshow to add gifs to act as an introduction to each members.                    
+                </p>
+                <br>
+
+                <li><a href="https://www.todayonline.com">TODAYonline newsletter</a></li>
+                <p>Simply because this is my favorite news website.<br>
+                    Whenever I want to catch up with current events, this is the first news service I look for.
+                </p>
+            </ul>
+
+            <div class="InspiImageSet">
+
+                <div class="subtitle">
+                    <img src="reportImages/sampleWebsite.gif" alt="">
+                    <p>Figure 2: Nectaria website template </p>
+                </div>
+
+                <div class="subtitle">
+                    <img src="reportImages/BTS.gif" alt="">
+                    <p>Figure 3: BTS home website</p>
+                </div>
+
+                <div class="subtitle">
+                    <img src="reportImages/todayonline.JPG" alt="">
+                    <p>Figure 4: TODAYonline newsletter</p>
+                </div>
+
+            </div>
+        </div>
+
+        <p class="Title" id="access">Accessibility</p>
+        <div class="Accessiblity">
+            <p>A website that is accessible means that users with challenges can traverse the website easily and understand its content.<br>
+                Thus, here are some of the features that make my website accessible.
+            </p>
+            <ul>
+                <li>Uses of high-contrast color</li>
+                <p>This is prevalent throughout the whole website.
+                    An example would be the home page’s “About Us” and “Member Introduction”
+                    Where all of the white color texts have black contrast color backgrounds.<br><br>
+                    Another example would be the article title. When you opened an article, the banner image is always darkened, so that the white color title can be read.
+                </p>
+                <br>
+                <li>Provide Alt Text for Images/Gifs/Videos/button</li>
+                <p>If you look through all of the  HTML files, you can see that all media (except recentHangouts.html's temporary articles) have some form of alt text.<br><br>
+                    This will ensure that users who can’t load the image know what it is, and allow users with visual impairment to understand the content when using assistive technologies such as screen reader.
+                </p>
+                <br>
+                <li>Structuring my websites with appropriate tags</li>
+                <p>I make my website “semantically rich” by using appropriate tags at suitable sections.
+                Throughout my website, i used tags like p, img, h1, ul, and table
+                This will allow users who use screen readers to jump between tags and navigate the websites.
+                </p>
+            </ul>
+            <p>However, that does not mean my website is 100% accessible. I will need to improve it by implementing aria-labels to my website, providing transcripts of videos that have my friends talking to each other, and make modifications to my website so that users could use keyboard to navigate easier . This can be seen on the recentHangouts.html where with just a keyboard, you can’t view other articles from different years.
+            </p>
+        </div>
+
+        <p class="Title" id="usab">Usability</p>
+        <div class="Usability">
+            <p>The website is meant to be a medium to introduce my close friend group. This can be seen through articles, group images, and photographs of our interest.</p>
+            <p> And since the usability of a website refers to how easily a user interacts with it. Thus, here are 3 examples of functions that I implemented to improve the users' experience in traversing the website.
+            </p>
+            <ol>
+                <li>Section-jump function for long pages on the “1st Malaysia trip” article and the recentHangouts.html</li>
+                <p>I find that my Malaysia trip article can be too long. Thus, I implement a function that allows users to skip to a specific section of the article. 
+                    It is placed at the side and with little use of animation to prevent it from being too distracting for the user.<br><br>
+                    The same can be said with the recenthangouts.html. Where I added a function at the side so the user can switch between years to view when different articles made from different years instead of compiling all past and present articles on the same page.
+                </p>
+                <br>
+                <li>Provide clear indications on the index.html</li>
+                <p>This can be seen with the “GIF banner” and the “Member Introduction”.
+                    The “GIF banner” has arrows with grey backgrounds on both sides to allow users to know that they can click on it to display a different GIF.
+                    The “Member Introduction” section, for the member’s profile picture, has ‘cursor: pointer’ in the index.css so the users know that they can select the profile picture to display a different member description below it. 
+                </p>
+                <br>
+                <li>Ease access to details on the recentHangouts.html</li>
+                <p>Since there are so many articles, it is important to log the submitted date of them.
+                    However, adding dates to the descriptions and making them visible can make the website feel claustrophobic.
+                    Thus, I made that when the users hover over an article, it will expand and show the date of when the article was submitted.
+                </p>
+            </ol>
+        </div>
+
+        <p class="Title" id="learn">Learning</p>
+        <div class="Learning">
+            <p>This project not only allowed me to experience the joy of coding and to build something that I can look back to. This project also encourages me to do self-study to achieve and code certain functionality I mentioned in my wireframe. Here are the 3 most useful things I learned to during this project:
+            </p>
+            <ul>
+                <li>The image Slideshow</li>
+                <p>Though it is just an image slide show from the name,  it is much more than that for me. The very same slideshow javascript concept can be applied throughout my whole website.<br>
+
+                    When I was trying to implement  the functionality of image slideshow based on https://www.w3schools.com/howto/howto_js_slideshow.asp , I find that the javascript section was the most confusing. The javascript section is quite different from javascript I learn from Introduction to Programming I.
+                    
+                    Thus, I tried to break it down to understand the concept behind it. And I felt exhilarated when I understood it.<br><br>
+                    
+                    The line ‘let slides = document.getElementsByClassName("mySlides");’ means that it will turn the variable ‘slides’ into an array with objects inside it.<br><br>
+                    
+                    In my case, ‘let intro = document.getElementsByClassName("member_Description");’ will create an array of ‘intro = [ {adipInstaPost:...,memberLayout:...} , {cuongInstapost:...,memberLayout:...} , … ].<br><br>
+                    
+                    After understanding it, I applied a similar concept to the ‘Member Introduction’ section, the recentHangouts.html webpage, and the ‘Four Diners, Two Carbs’ dishes’ recipe section.
+                </p>
+                <br>
+                <li>Learning how ‘:hover’ works fully</li>
+                <p>Though this is a piece of basic knowledge, just implementing this by itself can be make my website interactive but there is a catch.
+                    Shown in Figure 5 below, I find making things expand by hovering is cool but to have it snap back to place is jarring.
+                    Additionally in Figure 7, ‘:hover’ by itself only changes the element stated before it.<br><br>
+                    Thus, to make my website more aesthetically, i delve deeper into how ‘:hover’ works.
+
+                    Long story short, i learned about ‘:not(:hover)’ and ‘:hover [element]’.<br>
+                    By using ‘:not(:hover)’ in Figure 6, i can add ‘transition: 03s;’ so the attached element can slowly shrink back to its original size than snapping back.<br><br>
+                    By using (example ‘.article:hover .date{‘ ) in Figure 8,I can change the ‘.date’ element when hovering over the ‘.article’ element.
+                </p>
+                <br>
+                <li>'margin: 0 auto;'</li>
+                <p>I prefer using flex to position elements for my webpage. But when I have to position an element inside of another element where ‘justify-content: center’ and ‘align-items: center’ won’t work, I usually face the problem of being unable to make it responsively stays in the middle.
+
+                    After learning about this from a thread of stacks overflow, my mind was
+                    Absolutely blown by simply it is to make an element stay in the middle of another element without using flex, float, or grid.<br><br>
+                    
+                    Infact, you can see me using this multiple times throughout every single CSS file of every webpage just because of how easy it is to implement.
+                </p>
+            </ul>
+            <div class="LearnImgSet1">
+                <div class="subtitle">
+                    <img src="reportImages/nothover b4.gif" alt="">
+                    <p>Figure 5: without :not(:hover)</p>
+                </div>
+                <div class="subtitle">
+                    <img src="reportImages/nothover after.gif" alt="">
+                    <p>Figure 6: with :not(:hover)</p>
+                </div>
+            </div>
+            <div class="LearnImgSet2">
+                <div class="subtitle">
+                    <img src="reportImages/hover element b4.gif" alt="">
+                    <p>Figure 7: without .article:hover .date</p>
+                </div>
+                <div class="subtitle">
+                    <img src="reportImages/hover element after.gif" alt="">
+                    <p>Figure 8: with .article:hover .date</p>
+                </div>
+            </div>
+        </div>
+
+        <p class="Title" id="eva1">Evaluation I</p>
+        <div class="Evaluation1">
+            <p>I think the implementation of the slideshow concept in other sections of the website is quite successful.  
+                This is so because every time it works, I start to understand how javascript in building a website works. <br>
+                An example would be ‘dot[i].style.borderColor = "white"’. After messing around, I understood that ‘element.style.borderColor = “white”’ is the same as typing ‘border-colour: white’ in CSS.
+            </p>
+        </div>
+
+        <p class="Title" id="eva2">Evalution II</p>
+        <div class="Evaluation2">
+            <p>Other than the accessibility issue I mentioned earlier, I felt that I could make my website more polished with additional functions (such as a working calendar), make my coding neater, and more aesthetically pleasing. In order to achieve this next time, I should start planning out my future project even earlier and study various tips and tricks through self-study.
+            </p>
+        </div>
+
+        <p class="Title" id="reso">Resources</p>
+        <div class="Resource">
+            <p>Codes;</p>
+            <ul>
+                <li>[1]W3schools, 'How TO - Slideshow’. [Source code].https://www.w3schools.com/howto/howto_js_slideshow.asp</li>
+                <li>[2]@krishna_97, 'How to affect other elements when one element is hovered in CSS ?’,20 June 2022. [Source code].https://www.geeksforgeeks.org/how-to-affect-other-elements-when-one-element-is-hovered-in-css/</li>
+                <li>[3] RockPaperLz- Mask it or Casket, 'Is there an opposite CSS pseudo-class to :hover?’,14 June 2015. [source code].https://stackoverflow.com/questions/30835168/is-there-an-opposite-css-pseudo-class-to-hover</li>
+            </ul>
+            <p>Images;</p>
+            <ul>
+                <li>The Caretaker, 2016,  It's just a burning memory, digital art, accessed 20 February 2023,<https://thecaretaker.bandcamp.com/track/a1-its-just-a-burning-memory></https:></li>
+                <li>Cheekiemonkie, 2016, Bounce Singapore, digital photograph, accessed 20 February 2023,<https://www.cheekiemonkie.net/2016/06/bounce-trampoline-park-singapore-review.html></https:></li>
+                <li>Domi, Loid and Anya Forger Icon, digital art, accessed 20 February 2023,<https://www.pinterest.com/pin/loid-and-anya-forger-icon-in-2022--1104507877335972019/></li>
+            </ul>
+        </div>
+
+        <p class="Title" id="appen">Appendices</p>
+        <div class="Appendices">
+            <div class="subtitle">
+                <img src="reportImages/wireframeVer1.JPG" alt="">
+                <p>Figure 9: Wireframe no.1</p>
+            </div>
+            <div class="subtitle">
+                <img src="reportImages/wireframeVer2.JPG" alt="">
+                <p>Figure 10: Wireframe no.2</p>
+            </div>
+            <div class="subtitle">
+                <img src="reportImages/mainpagemockup.gif" alt="">
+                <p>Figure 11: index.html mock up</p>
+            </div>
+            <div class="subtitle">
+                <img src="reportImages/recentpagemockup.gif" alt="">
+                <p>Figure 12: recentHangouts.html mock up</p>
+            </div>
+            <div class="subtitle">
+                <img src="reportImages/website path.JPG" alt="">
+                <p>Figure 13: Site map</p>
+            </div>
+
+            
+        </div>
+
+        <div class="section-skip">
+            <h3 class="sectionTitle">S</h3>
+            <h3 class="sectionTitle">e</h3>
+            <h3 class="sectionTitle">c</h3>
+            <h3 class="sectionTitle">t</h3>
+            <h3 class="sectionTitle">i</h3>
+            <h3 class="sectionTitle">o</h3>
+            <h3 class="sectionTitle">n</h3>
+            <h3 class="sectionTitle last">s:</h3>
+            <a href="#intro"><button><p>Introduction</p></button></a>
+            <a href="#inspi"><button><p>Inspiration</p></button></a>
+            <a href="#access"><button><p>Accessibility</p></button></a>
+            <a href="#usab"><button><p>Usability</p></button></a>
+            <a href="#learn"><button><p>Learning</p></button></a>
+            <a href="#eva1"><button><p>Evaluation I</p></button></a>
+            <a href="#eva2"><button><p>Evaluation II</p></button></a>
+            <a href="#reso"><button><p>Resource</p></button></a>
+            <a href="#appen"><button><p>Appendices</p></button></a>
+        </div>
+
+
+
+    </div>
+
+
+    <div class="site-footer">
+        <div class="footerTitle">
+          <h2>"Gamers Unite"</h2>
+        </div>
+  
+  
+          <div class="footerTruthText">
+            <h4 class="footerTruthText_title">Purpose</h4>
+            <p class="footerTruthText_paragraph" >"This website was created as a blog to the Singapore's original one-an-only "that" infamous group of close friends since 2015. This website is maybe/probably/most-likely/unlikely copyrighted so do not try to STEAL this website content</p>
+          </div>
+  
+        <!-- </div> -->
+  
+    </div>
+</body>
+</html>

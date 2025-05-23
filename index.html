@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="user-scalable=0,width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main_page.css" />
+    <script src="javascript/main_page.js" async defer></script>
+    <title>The Gamers Unite</title>
+</head>
+<body onload="randombg()">
+
+  <!-- top navigation bar -->
+  <nav id="navbar">
+    <div id="group_logo">
+      <a href="index.html">
+        <img id="groupLogoImg" src="index_images/proper logo maybe.jpg" alt="group Logo Image" />
+      </a>
+    </div>
+
+    <div id="nav-links">
+      <a href="recentHangouts.html" alt="this is a link that will lead you to the a page with all of the available articles">Articles</a>
+    </div>
+
+    <a id="linkedin" href="https://www.linkedin.com/in/cuong-nguyen-14bb62179/"><img src="index_images/linkedin-square-white-icon-transparent.png" alt="The icon linked to Cuong's linkedin account " width="40px" height="40px"/></a>
+    <a id="Report" href="report.html"><button>Report HTML</button></a>
+</nav>
+
+<!-- banner Gif and Recent article section -->
+<div class="firstRow">
+  <!-- banner GIf -->
+  <div class="slideImages">
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <img src="index_images/jp_haircut.gif" alt="the group's picnic at the beach, featuring Jun Peng" style="width:100%">
+          <!-- <div class="text">Caption Text</div> -->
+        </div>
+        
+        <div class="mySlides fade">
+          <img src="index_images/murray_panini_vape.gif" alt="Murray magically smoking a tortilla like a cigarette" style="width:100%">
+          <!-- <div class="text">Caption Two</div> -->
+        </div>
+        
+        <div class="mySlides fade">
+          <img src="index_images/cuong_zoomed.gif" alt="Cuong's face flashing from the floor light"  style="width:100%">
+          <!-- <div class="text">Caption Three</div> -->
+        </div>
+
+        <div class="mySlides fade">
+          <img src="index_images/adip_gym.gif" alt="Adip performing a 80 kilogram deadlift" style="width:100%">
+          <!-- <div class="text">Caption Three</div> -->
+        </div>
+        
+        <a class="prev" onclick="plusSlides(-1)" alt="previous banner GIF">❮</a>
+        <a class="next" onclick="plusSlides(1)" alt="next banner GIF">❯</a>
+        
+        <h1 class="slide-title">   Gamers Unite   </h1>
+        <p class="slide-text-description">A professional friend group since 2015</p>
+    </div>
+  </div>
+  <br>
+  <!-- recent article  -->
+  <div class="mostRecentBlog">
+      <h2 class="sidePanelTitle">&#x2022 Latest Story</h2>
+    <div class="articleTotal">
+      <div class="article">
+        <a href="css/articlesHTML/2023/dinnerTGT.html"><img src="css/articlesImages/2023/dinnerTGT/chill.jpeg" alt="The thumbmail for the group's cooking experience together at Jun Peng's house on the twenty second November twenty twenty two"style="width:100%"></a>
+        <div class="articleTitle"><div class="articleTitleDes">Four Diners, Two Carbs</div> - 23rd February</div>
+      </div>
+      <div class="article">
+        <a href="css/articlesHTML/2022/afa2022.html"><img src="css/articlesImages/2022/afa/anya and loid.jpg" alt="The thumbmail for Cuong and Jun peng's blog about their time in the Anime Festival Asia, featuring Anya and Loid from the hit anime Spy X Family on the twenty second November twenty twenty two" style="width:100%"></a>
+        <div class="articleTitle"><div class="articleTitleDes">AFA</div> - 27th November 2022</div>
+      </div>
+      <div class="article">
+        <a href="css/articlesHTML/2022/Malaysia_trip2022.html"><img src="css/articlesImages/2022/malaysiatrip/malaysia_trip_banner.jpg" alt="The thumbmail for the group's oversea trip to Malaysia. It shows a group photo with Murray's parent infront of a museum banner on the seventeen September twenty twenty two" style="width: 100%"></a>
+        <div class="articleTitle"><div class="articleTitleDes">1st Malaysia Trip</div> - 17th September 2022</div>
+      </div>
+    
+      <a href="recentHangouts.html"></a>
+    </div>
+  </div>
+</div>
+
+  <!-- about us section -->
+  <div id="aboutUs" class="aboutUs">
+        <h2 class="aboutUsTitle">"About Us"</h2><br><br>
+        <p class="aboutUsDescription">Welcome to our website, dedicated to a group of close friends that was formed in Bedok Green Secondary School 2015. Our bonds is built on trust, laughter, gaslighting, and borderline harrassment toward each others. Whether we are exploring new places, trying out a new restaurant, or simply living our busy daily lives, we always make enjoy one another's companies. Thus, with how much memories we formed for years, we decided to make this website to share others about our hangouts and act as an archive memory book for ourselves. We hope that our website will give you a glimpse into this "special friendship" that we have and the questionable things we did together.</p>
+  </div>
+  
+
+    <br>
+    <!-- member introduciton section -->
+  <div id="membersWhole"class="membersWhole">
+    <div class="memberIntroText">
+        <h2 class="memberIntroTextTitle">"Member Introduction"</h2>
+    </div>
+    <br>
+    <div class="memberPFP"><!--the circle profile image section-->
+        <div class="Adip">
+            <img class="Adip_img" src="index_images/adip pfp.jpeg" alt="Adip profile picture. Click this picture show Adip's description" onclick="memberDetails(0)">
+        </div>
+
+        <div class="Cuong">
+            <img class="Cuong_img" src="index_images/cuong pfp.jpeg" alt="Cuong profile picture. Click this picture show Cuong's description" onclick="memberDetails(1)">
+        </div>
+
+        <div class="Rizq">
+            <img  class="Rizq_img" src="index_images/rizq pfp.jpeg" alt="Rizq profile picture. Click this picture show Rizq's description" onclick="memberDetails(2)">
+        </div>
+
+        <div class="Jun_Peng">
+            <img class="Jun_Peng_img" src="index_images/jp pfp.jpeg" alt="Jun Peng profile picture.  Click this picture show Jun Peng's description" onclick="memberDetails(3)">
+        </div>
+
+        <div class="Murray">
+            <img class="Murray_img" src="index_images/murray pfp.jpeg" alt="Murray profile picture.  Click this picture show Murray's description" onclick="memberDetails(4)">
+        </div>
+    </div>
+    <br>
+    <!-- the section where each member's full body img, description, name, and instagram link is shown -->
+    <div class="memberDescription">
+        <div class="member_Description fade2">
+            <!--add full body of img here or lastest instagram post-->
+            <img class="adipInstaPost" src="index_images/adip potrait.jpeg"  alt="A picture of Adip posing in an urban park surrounded with thin trees">
+          <div class="memberLayout">
+            <h2 class="member_Description_Name">Adip</h2> 
+            <p class="member_Description_Text">An Aerospace Engineering student who is known for his loves for his gaming. He has a great sense humor and always knows how to make a conversation more interesting. With both of the characteristic combined, you will have a enjoyable time playing Terraria (with a hint of gaslighting).</p>  
+            <a href="https://www.instagram.com/aeydip/?hl=en">Check out Adip's Instagram</a>
+          </div>    
+        </div>
+
+        <div class="member_Description fade2">
+            <!--add full body of img here or lastest instagram post-->
+            <img class="cuongInstaPost" src="index_images/cuong potrait.jpg" alt="A picture of Cuong posing infront of the PETRONAS Twin Towers">
+          <div class="memberLayout">
+            <h2 class="member_Description_Name">Cuong</h2>
+            <p class="member_Description_Text">A Former Aerospace Engineering student who turns to Computer science is known for his choatic personality. He has a great sense "humor", energetic and gaslighting is his game. Other than that, he's just an average Asian who addcited to League.</p>  
+            <a href="https://www.instagram.com/is_ngngqucuong/?hl=en">Check out Cuong's Instagram</a>
+          </div>
+        </div>
+
+        <div class="member_Description fade2">
+            <!--add full body of img here or lastest instagram post-->
+            <img class="rizqInstaPost" src="index_images/rizq potrait.jpeg" alt="A picture of Rizq posing in the highest floor of a nearby mall. The background have the PETRONAS Twin Towers">
+          <div class="memberLayout">
+            <h2 class="member_Description_Name">Rizq</h2>
+            <p class="member_Description_Text">The friend who is the most down to Earth than the rest. Even though is currently in National Service, he's is still able to keep in contact with others and a be a good listener. On his off day, our hangouts are always well planned and enjoyable whenever he's around.</p>  
+            <a href="https://www.instagram.com/r.izqqq/?hl=en">Check out Rizq's Instagram</a>
+          </div>
+        </div>
+
+        <div class="member_Description fade2">
+            <!--add full body of img here or lastest instagram post-->
+            <img class="jpInstaPost" src="index_images/jp potrait edit.jpeg" alt="A picture of Jun Peng posing beside a MRT station">
+          <div class="memberLayout">
+            <h2 class="member_Description_Name">Jun Peng</h2>
+            <p class="member_Description_Text">A Chemical Engineering student who is known for his wide range of knowledge. Even though his humor was "intersting at best", he is very knowledgable, friendly and very fun to play games with. Infact, whenever you need help, he will always have your back.</p>  
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley">Check out Jun Peng's Instagram</a>
+          </div>
+        </div>
+
+        <div class="member_Description fade2">
+            <!--add full body of img here or lastest instagram post-->
+            <img class="murrayInstaPost" src="index_images/murray potrait.jpeg" alt="A picture of murray posing infront of the PETRONAS Twin Towers">
+          <div class="memberLayout">
+            <h2 class="member_Description_Name">Murray</h2>
+            <p class="member_Description_Text">A Mechanical Engineering student who is known for his loves for gaming and fashion. If you only look at him on the surface level, you'll might mistaken him for a model. With his "unpredictable" chaRIZZma and extrovert personality, there will never be nothing to do or talk about.</p>  
+            <a href="https://www.instagram.com/murray123gt/?hl=en">Check out Murray's Instagram</a> 
+          </div>
+        </div>
+    </div>
+  </div>
+    <br>
+
+    <!-- footer -->
+    <div class="site-footer">
+      <div class="footerTitle">
+        <h2>"Gamers Unite"</h2>
+      </div>
+
+
+        <div class="footerTruthText">
+          <h4 class="footerTruthText_title">Purpose</h4>
+          <p class="footerTruthText_paragraph" >"This website was created as a blog to the Singapore's original one-an-only "that" infamous group of close friends since 2015. This website is maybe/probably/most-likely/unlikely copyrighted so do not try to STEAL this website content</p>
+        </div>
+
+      </div>
+
+    </div>    
+</body>
+</html>

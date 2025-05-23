@@ -1,0 +1,312 @@
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 3;
+    overflow: hidden;
+    width: 100%;
+    background-color: #333;
+    animation-name: navbar;
+    animation-duration: 1.2s;
+    opacity: 0.9;
+  }
+  
+  #navbar #linkedin{
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    margin-top: 3px;
+  }
+  
+  
+  #navbar #nav-links a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  #navbar #nav-links a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  #navbar #group_logo a {
+    float: left;
+    display: block;
+  }
+  
+  #navbar #group_logo a img {
+    border-radius: 4px;
+    height: 40px;
+    margin-top: 4px;
+    left: 0;
+  }
+  
+  /*navigation bar animation*/
+  @keyframes navbar{
+    from{ transform: translateY(-400px);}
+    to {transform: translateY(0px);}
+  }
+    
+  * {box-sizing: border-box}
+  body {font-family: Verdana, sans-serif; margin:0; background-color: rgba(50,50,50,.9);}
+/* content */
+.banner{
+    padding-top: 48px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    max-height: 900px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0.8);
+    padding-bottom: 30px;
+  }
+  
+  .bannerIMG{
+    max-width: 95%;
+    height: auto;
+    flex-grow: 1;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .bannerIMG img{
+    max-width: 100%;
+    border-radius: 5px;
+    filter: brightness(50%);
+  }
+  
+  .bannerTitle{
+    position: absolute;
+    top:350px;
+    width: 50%;
+    text-align: center;
+    color: #f2f2f2;
+    border-bottom: 4px solid #f2f2f2;
+    font-size: 2em;
+  }
+  
+  .bannerDate{
+    position: absolute;
+    top:410px;
+    text-align: center;
+    color: #f2f2f2;
+    font: 1.1em;
+  
+  }
+  .centerblack{
+    /* left: 10%; */
+    width: 80%;
+    height: 1100px;
+    position: fixed;
+    z-index: -1;
+    background-color:rgba(0,0,0,0.6);
+    display: none;
+    margin: 0 auto;
+  }
+
+  .wholeContent{
+    width: 70%;
+    margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  color:#f2f2f2;
+  font-size: 1.1em;
+  background-color: rgba(0,0,0,0.6);
+  border-radius: 0px 0px 20px 20px;
+  padding-bottom: 30px;
+  justify-content: center;
+  align-items: center;
+  }
+
+  .BounceIntro, .NinjaCourse, .GettingTired, .NinjaShowCase, .NinjaShowCase{
+    display: flex;
+    flex-direction: row;
+    gap: 3em;
+    margin: 40px;
+    align-items: center;
+    max-width: 70%;
+  }
+
+  img{
+    max-width: 100%;
+    border-radius: 10px;
+  }
+
+  .subtitle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5em;
+  }
+
+  .subtitle p{
+    margin: 0 auto;
+    font-size: 16px;
+    width: 100%;
+  }
+
+  .Opening,.BounceIntro p,.NinjaCourse p,.GettingTired p, .Conclusion{
+    max-width: 70%;
+  }
+
+  .BounceIntro .subtitle img,.NinjaCourse .subtitle img, .GettingTired .subtitle img {
+    max-width: 20vw;
+  }
+
+
+  .NinjaShowCase{
+    gap: 8em;
+  }
+
+  .NinjaShowCase .subtitle video{
+    width: 21vw;
+    border-radius: 10px;
+  }
+
+  /*footer*/
+  .site-footer{
+    border: outset;
+    border-color:rgba(0,0,0,.6);
+    background-color: #333;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,1));
+    opacity: 0.85;
+    color: white;
+    animation-name: footer;
+    animation-duration: 0.7s;
+    margin-top: 25px;
+  }
+  
+  .footerTitle{
+    margin-bottom: -60px;
+  }
+  
+  .footerTruthText_title{
+    font-size: 1.3vw;
+    margin-bottom: -5px;
+  }
+  
+  .footerTruthText{
+    display: flex;
+    /*background-color: pink;*/
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    gap: -2em;
+  }
+  
+  .footerTruthText_paragraph{
+    max-width: 700px;
+    text-align: center;
+  }
+  
+  /*.socials{
+    width: 460px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: space-evenly;
+    margin-right: 40px;
+  }*/
+  
+  /*.emailIons{
+    font-size: 0.5vw;
+  }*/
+  
+  @keyframes footer{
+    0%{opacity: 0;}
+    100%{opacity: 0.8;}
+    from{transform: translateY(400px);}
+    to {transform: translateY(0px);}
+  }
+  
+  html,body, #root {
+    height: 50%;
+  }
+
+  @media screen and (max-width: 940px){
+    html, body{
+    overflow-x: hidden;
+    height: 1400px;
+    /* padding: 0;
+    margin: 0;
+    max-width: 100%; */
+   }
+  
+   .body{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+         box-sizing: border-box;
+   }
+
+   .banner{
+    gap: 1px;
+   }
+
+   .bannerTitle{
+    width: 70%;
+    font-size: 1.4em;
+    top:25vw ;
+    position:sticky;
+    padding-bottom: 0;
+   }
+
+   .bannerDate{
+    top: 29.5vw;
+    position:sticky;
+    padding-top: 0;
+   }
+
+   .bannerIMG img{
+    max-height: 350px;
+    max-width: 100%;
+    filter: brightness(50%);
+   }
+
+   .wholeContent{
+    width: 90%;
+    font-size: 1em;
+   }
+
+   .BounceIntro, .NinjaShowCase, .NinjaShowCase{
+    flex-direction: column;
+    max-width: 90%;
+  }
+
+  .GettingTired,.NinjaCourse{
+    flex-direction: column-reverse;
+    max-width: 90%;
+  }
+
+  .Opening,.BounceIntro p,.NinjaCourse p,.GettingTired p, .Conclusion{
+    max-width: 95%;
+  }
+
+  .BounceIntro .subtitle img,.NinjaCourse .subtitle img, .GettingTired .subtitle img {
+    max-width: 90%;
+  }
+
+  .NinjaShowCase .subtitle video{
+    width: 90%;
+  }
+
+
+   .site-footer{
+    height: 15em;
+   }
+  
+   .footerTruthText_title{
+    font-size: 20px;
+   }
+  
+   .footerTruthText{
+   margin-top: 13vw;
+   }
+  }
